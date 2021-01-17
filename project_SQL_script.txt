@@ -1,0 +1,1595 @@
+CREATE TABLE 
+
+customer(               
+
+Customer_id 	 	VARCHAR(10) NOT NULL,
+
+customer_name 	VARCHAR(60) NOT NULL,
+
+phone_number 	VARCHAR(20) NOT NULL,
+
+Wedding_date	 	DATE,
+
+budget 		FLOAT,
+
+address 		VARCHAR(80) NOT NULL,
+
+email_address 	VARCHAR(30) NOT NULL,
+
+dress_size  		VARCHAR(10) NOT NULL,
+
+shoe_size 		VARCHAR(10) NOT NULL,
+
+role 			VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (customer_id)
+
+);
+
+
+
+----------------------------------------------------
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1001', 'Sam Hanse', '917-123-4556', '01/01/2020', 2000.00, '123 Ellen Street', 'samhe@gmail.com', 's', '5', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1002', 'Glenn Stolven', '951-555-2012', '05/02/2020', 54000.00, '44503 Sanford Street', 'glennj23@gmail.com', 'm', '7', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1003', 'Claudell Waber', '942-513-2357', '05/22/2020', 7000.00, '894 Granby Avenue', 'waber555@yahoo.com', 'm', '8', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1004', 'Denis Fainsford', '943-287-2733', '3/12/2020', 9000.00, '3826 Sutherland Circle', 'denie32@gmail.com', 'l', '10', 'best man');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1005', 'Dolley Malloch', '308-630-4502', '3/28/2020', 10000.00, '5 Crownhardt Alley', 'dmallch3@gmail.com', 'l', '11', 'best man');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1006', 'Ilise Sproson', '368-129-7409', '04/22/2020', 5000.00, '51 Old Shore Road', 'ilisee122@gmail.com', 's', '6', 'maid');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1007', 'Nikolos Arnaez', '908-257-1729', '01/22/2021', 13000.00, '69 Anniversary Parkway', 'nikk567@gmail.com', 'm', '8', 'maid');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1008', 'Adrian Seavers', '840-299-2133', '07/12/2020', 8000.00, '27 Pankratz Court', 'seaver21@gmail.com', 's', '6.5', 'best women');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1009', 'Hewe Joyce', '844-345-3243', '04/18/2020', 7700.00, '3446 Pawling Center', 'joyrcehewww@aol.com', 'l', '9.5', 'best women');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1010', 'Dur Biddleston', '832-232-4534', '03/15/2020', 9500.00, '39 Packers Junction', 'burr2992@aol.com', 'l', '12', 'best men');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1011', 'Julius Charlin', '434-234-6862', '07/15/2020', 14000.00, '6526 Myrtle Lane', 'currry2423@gmail.com', 'l', '11', 'groom');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1012', 'Tobi Christoforou', '387-451-6363', '02/03/2021', 11100.00, '8562 Northview Point', 'tobii434@gmail.com', 'm', '10', 'groom');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1013', 'Reeta Bathow', '917-232-5510', '04/07/2021', 15000.00, '172 Paget Road', 'reeta232@gmail.com', 's', '5', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1014', 'Kat Greatbach', '415-636-7562', '06/09/2020', 6600.00, '3208 Vermont Pass', 'katesp31@gmail.com', 's', '6.5', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1015', 'Susanne Folbige', '253-471-2482', '04/11/2020', 8500.00, '81 4th Place', 'shame2324@gmail.com', 's', '7.5', 'best women');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1016', 'Albert Hatter', '915-133-7162', '05/09/2020', 8000.00, '94 Granby Avenue', 'alber564@yahoo.com', 'l', '13', 'best men');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1017', 'Meridel Trimnell', '744-789-9573', '07/11/2020', 12000.00, '53 Eggendart Circle', 'merla24865@aol.com', 'l', '11', 'best men');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1018', 'Caritta Bestwall', '342-081-5252', '02/18/2020', 15000.00, '619 Oxford Trail', 'cqege63gd@gmail.com', 'm', '7.5', 'best women');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1019', 'Tallie Hackwell', '508-193-4157', '09/14/2020', 10000.00, '6883 Ruskin Court', 'twil434fg@gmail.com', 'm', '8', 'bride');
+
+
+
+INSERT INTO customer (customer_id, customer_name, phone_number, wedding_date, budget, address, email_address, dress_size, shoe_size, role) 
+
+VALUES ('C1020', 'Keir Callinan', '654-916-9922', '06/19/2020', 11000.00, '5641 Huxley Point', 'keirfag341@gmail.com', 'l', '13', 'groom');
+
+
+
+-----------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+appointment(               
+
+appointment_id  		VARCHAR(10) NOT NULL,
+
+appointment_datetime 	DATE,
+
+service_provided 		VARCHAR(50) NOT NULL,
+
+customer_id 	 		VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (appointment_id),
+
+FOREIGN KEY (customer_id)  REFERENCES customer (customer_id)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A001', '2019-12-01 11:45:00', 'Bridesmaid Dress Showing', 'C1001');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A000', '2020-02-07 11:30:00', 'Dress Fitting', 'C1002');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A002', '2020-03-21 17:30:00', 'Dress Fitting', 'C1003');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A003', '2020-02-19 18:00:00', 'Tux Fitting', 'C1004');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A004', '2020-03-19 18:00:00', 'Tux Fitting', 'C1005');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A005', '2020-02-01 10:00:00', 'Bridesmaid Dress Fitting', 'C1006');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A006', '2020-07-017 12:45:00', 'Bridesmaid Dress Fitting', 'C1007');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A007', '2020-04-07 13:15:00', 'Bridesmaid Dress Fitting', 'C1008');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A008', '2020-02-19 09:30:00', 'Bridesmaid Dress Showing', 'C1009');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A009', '2020-01-22 17:30:00', 'Shoe Fitting', 'C1010');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A010', '2020-06-30 13:30:00', 'Tux Fitting', 'C1011');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A011', '2020-09-30 10:30:00', 'Tux Fitting', 'C1012');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A012', '2020-10-30 15:45:00', 'Dress Fitting', 'C1013');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A013', '2020-04-30 13:15:00', 'Shoe Fitting', 'C1014');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A014', '2020-03-13 09:00:00', 'Shoe Fitting', 'C1015');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A015', '2020-02-30 14:00:00', 'Tux Fitting', 'C1016');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A016', '2020-05-17 14:45:00', 'Tux Fitting', 'C1017');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A017', '2019-12-13 17:45:00', 'Shoe Fitting', 'C1018');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A018', '2020-06-13 12:45:00', 'Dress Fitting', 'C1019');
+
+
+
+INSERT INTO appointment (appointment_id, appointment_datetime, service_provided, customer_id)
+
+VALUES ('A019', '2020-05-11 09:00:00', 'Tux Fitting', 'C1020');
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+employee(               
+
+employee_id 		VARCHAR(10) NOT NULL,
+
+employee_name 	VARCHAR(60) NOT NULL,
+
+address 		VARCHAR(80) NOT NULL,
+
+email_address 	VARCHAR(30)  NOT NULL,
+
+phone_number 	VARCHAR(20) NOT NULL,
+
+schedule 		VARCHAR(20) NOT NULL,
+
+SSN 			INT,
+
+salary 			NUMBER,
+
+position 		VARCHAR(30) NOT NULL,
+
+PRIMARY KEY (employee_id)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E100', 'Frank Jones', '324 Park Ave', 'frank.jones@bridalstore.com', '212-555-3021', 'MWF', 123456789, 40000, 'Planner');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+Values ('E101', 'Sarah Parker', '771 West End Ave', 'sarah.parker@bridalstore.com', '212-555-9087', 'TTS', 987654321, 43000, 'Inventory Clerk');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E102', 'Steven Cole', '551 Eigth Ave', 'steven.cole@bridalstore.com', '917-555-7384', 'SS', 584726593, 33000, 'Receptionist');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E103', 'Christian Knight', '12 Park St', 'christian.knight@bridalstore.com', '203-555-6115', 'MTWTF', 583769365, 64000, 'Manager');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E104', 'Christina Ramirez', '777 Fourth St', 'christina.ramirez@bridalstore.com', '432-555-7365', 'MTT', 769375986, 55000, 'Assistant Manager');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E105', 'Giovanni Bruno', '1010 Clark St', 'giovanni.bruno@bridalstore.com', '817-555-1315', 'WTF', 756396857, 37000, 'Sales Associate');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E106', 'Carolina Fusco', '176 Seal Lane', 'carolina.fusco@bridalstore.com', '748-555-2315', 'MWF', 758496724, 40000, 'Planner');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E107', 'Jessica Flannigan', '300 Fifth Ave', 'jessica.flannigan@bridalstore.com', '788-555-9657', 'MWF', 423674589, 39000, 'Inventory Clerk');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E108', 'Sam Stewart', '999 Tenth Ave', 'sam.stewart@bridalstore.com', '917-555-7777', 'STT', 769456432, 37000, 'Inventory Clerk');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E109', 'Carl Hanson', '17 Hidden Forest Lane', 'carl.hanson@bridalstore.com', '913-555-2224', 'TFS', 657467924, 53000, 'Assistant Manager');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E110', 'Taylor Franklin', '72 Park Place', 'taylor.franklin@bridalstore.com', '718-555-3737', 'TFS', 986359257, 43000, 'Planner');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E111', 'Jack Taylor', '37 Hope St', 'jack.taylor@bridalstore.com', '992-555-7495', 'MTWT', 759634658, 39500, 'Sales Associate');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E112', 'Nicole Jackson', '43 Paulson Drive', 'nicole.jackson@bridalstore.com', '865-555-1987', 'SS', 765397867, 33750, 'Receptionist');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E113', 'Carrie Hilton', '1999 Third Ave', 'carrie.hilton@bridalstore.com', '913-555-2224', 'TFS', 342689564, 49800, 'Assistant Manager');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E114', 'Jermaine Cole', '1 Richmond St', 'jermaine.cole@bridalstore.com', '212-555-3867', 'SS', 649773847, 44000, 'Inventory Clerk');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E115', 'Courtney Jones', '87 Thompson Place', 'courtney.jones@bridalstore.com', '212-555-8674', 'SS', 764856385, 39000, 'Planner');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E116', 'Jon Parker', '16 Raymond Place', 'jon.parker@bridalstore.com', '647-555-8465', 'MWF', 967894562, 34250, 'Inventory Clerk');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E117', 'Sean Holmes', '1662 Tenth St', 'sean.holmes@bridalstore.com', '917-555-6843', 'TTF', 547621435, 31300, 'Receptionist');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E118', 'Sally Sanchez', '87 Eagle Drive', 'sally.sanchez@bridalstore.com', '748-555-4534', 'FSS', 758694657, 63000, 'Manager');
+
+
+
+INSERT INTO employee (employee_id, employee_name, address, email_address, phone_number, schedule, SSN, salary, position)
+
+VALUES ('E119', 'Julio Ricardo', '686 Seventh Ave', 'julio.ricardo@bridalstore.com', '212-555-4517', 'MTWTF', 648665748, 52000, 'Planner');
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+payment(
+
+paymentid 		VARCHAR(10) NOT NULL,
+
+amount 		FLOAT,
+
+discount 		FLOAT, 
+
+payment_method 	VARCHAR(10) NOT NULL,
+
+card_number 		VARCHAR(16) NOT NULL,
+
+ PRIMARY KEY (paymentid)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00001', 368.96, 0.2, 'credit card', '4401-9876-5432-1000');
+
+
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00002', 79.68, 0, 'credit card', '4461-1234-5678-9000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00003', 35, 0, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00004', 423, 0.05, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00005', 88, 0.1, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00006', 123.45, 0.15, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00007', 96, 0.3, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00008', 632, 0.25, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00009', 75.28, 0, 'cash', '0000-0000-0000-0000');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00010', 53.14, 0.1, 'credit card', '4401-4510-7420-1425');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00011', 85.33, 0, 'credit card', '4563-1375-1234-3513');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00012', 330.60, 0.2, 'credit card', '4510-3513-1351-3523');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00013', 235, 0.05, 'credit card', '4563-3100-4523-3251');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00014', 146.46, 0.2, 'credit card', '4401-4623-6467-1937');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00015', 466.23, 0.4, 'credit card', '4510-3523-5624-6246');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00016', 96, 0.1, 'credit card', '4461-3513-6426-2367');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00017', 2041.35, 0.4, 'credit card', '4401-3561-4623-3670');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00018', 375.60, 0.2, 'credit card', '4117-3535-1251-5960');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00019', 49.99, 0, 'credit card', '4117-3519-3957-3959');
+
+INSERT INTO payment
+
+(paymentid, amount, discount, payment_method, card_number)
+
+VALUES
+
+('PMT00020', 10, 0, 'cash', '0000-0000-0000-0000');
+
+
+
+------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+rental(
+
+Rental_transaction_id 	VARCHAR(10) NOT NULL,
+
+pickup_datetime 		DATE,
+
+pickup_location 		VARCHAR(30) NOT NULL,
+
+Return_datetime  		DATE,
+
+transaction_datetime 		DATE,
+
+Paymentid 			VARCHAR(10) NOT NULL,
+
+appointment_id 		VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (rental_transaction_id),
+
+FOREIGN KEY(paymentid) REFERENCES payment (paymentid),
+
+FOREIGN KEY (appointment_id)  REFERENCES appointment (appointment_id)
+
+);
+
+
+
+----------------------------------------------------
+
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL0000', '2020-04-22 12:30:00', 'Manhattan', '2020-06-22 12:30:00', '2020-04-21 13:00:00', 'PMT00001', 'A001');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1001', '2020-04-23 12:30:00', 'Manhattan', '2020-06-22 12:30:00', '2020-04-20 14:00:00', 'PMT00002', 'A000');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1002', '2020-04-24 12:30:00', 'Brooklyn', '2020-06-24 12:30:00', '2020-04-24 14:00:00', 'PMT00003', 'A002');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1003', '2020-04-24 12:30:00', 'Queens', '2020-06-24 12:30:00', '2020-04-25 14:00:00', 'PMT00004', 'A003');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1004', '2020-04-25 12:30:00', 'Palisades', '2020-06-25 12:30:00', '2020-04-25 14:00:00', 'PMT00005', 'A004');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1005', '2020-04-26 12:30:00', 'Manhattan', '2020-06-25 12:30:00', '2020-04-26 14:00:00', 'PMT00006', 'A005');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1006', '2020-04-27 12:30:00', 'Queens', '2020-06-25 12:30:00', '2020-04-25 14:00:00', 'PMT00007', 'A006');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1007', '2020-04-28 12:30:00', 'Brooklyn', '2020-06-26 12:30:00', '2020-04-26 14:00:00', 'PMT00008', 'A007');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1008', '2020-04-29 12:30:00', 'Long Island City', '2020-06-26 12:30:00', '2020-04-27 14:00:00', 'PMT00009', 'A008');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1009', '2020-04-30 12:30:00', 'Manhattan', '2020-06-27 12:30:00', '2020-04-28 14:00:00', 'PMT00010', 'A009');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1010', '2020-05-01 16:30:00', 'Manhattan', '2020-06-28 12:30:00', '2020-04-25 16:00:00', 'PMT000011', 'A010');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1011', '2020-05-02 12:30:00', 'Queens', '2020-06-24 14:27:00', '2020-04-25 14:00:00', 'PMT00012', 'A011');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1012', '2020-05-03 15:30:00', 'Brooklyn', '2020-06-24 12:30:00', '2020-04-26 19:00:00', 'PMT00013', 'A012');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1013', '2020-05-04 16:30:00', 'Long Island City', '2020-06-28 08:30:00', '2020-04-27 14:00:00', 'PMT00014', 'A013');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1014', '2020-05-05 12:00:00', 'Manhattan', '2020-07-07 11:30:00', '2020-04-28 14:00:00', 'PMT00015', 'A014');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1015', '2020-05-06 11:30:00', 'Manhattan', '2020-06-25 11:30:00', '2020-04-26 14:13:00', 'PMT00016', 'A015');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1016', '2020-05-07 08:30:00', 'Queens', '2020-06-24 08:30:00', '2020-04-24 14:00:00', 'PMT00017', 'A016');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1017', '2020-05-08 14:30:00', 'Brooklyn', '2020-06-26 14:30:00', '2020-04-26 14:00:00', 'PMT00018', 'A017');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1018', '2020-05-09 15:30:00', 'Long Island City', '2020-06-25 15:30:00', '2020-04-27 14:30:00', 'PMT00019', 'A018');
+
+INSERT INTO rental(rental_transaction_id, pickup_datetime, pickup_location, Return_datetime,  transaction_datetime, paymentid, appointment_id) 
+VALUES ('RTL1019', '2020-05-10 18:30:00', 'Manhattan', '2020-06-24 18:30:00', '2020-04-28 14:50:00', 'PMT00020', 'A019');
+
+
+
+
+-------------------------------------------------------------
+
+
+
+CREATE TABLE
+
+purchase(
+
+purchase_transaction_id 	INT,
+
+refundable 			VARCHAR(20) NOT NULL,
+
+refund_status 			VARCHAR(20) NOT NULL,
+
+transaction_datetime 		DATE,
+
+appointment_id 		VARCHAR(10) NOT NULL,
+
+Paymentid 			VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (purchase_transaction_id),
+
+FOREIGN KEY (paymentid)  REFERENCES payment(paymentid),
+
+FOREIGN KEY (appointment_id)  REFERENCES appointment (appointment_id)
+
+);
+
+
+
+-----------------------------------------
+
+
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+values ('1010','yes','success', '2020-06-22 12:30:00', 'A001', 'PMT00002');
+
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1020', 'yes', 'success', '2020-06-23 12:30:00', 'A000', 'PMT00001');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1030', 'yes', 'success', '2020-06-24 12:30:00', 'A002', 'PMT00003');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1040', 'yes', 'success', '2020-06-25 12:30:00', 'A003', 'PMT00004');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1050', 'yes', 'success', '2020-06-26 12:30:00', 'A004', 'PMT00005');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1060', 'yes', 'success', '2020-06-27 12:30:00', 'A005', 'PMT00006');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1070', 'yes', 'success', '2020-06-28 12:30:00', 'A006', 'PMT00007');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1080', 'yes', 'success', '2020-06-29 12:30:00', 'A007', 'PMT00008');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1090', 'yes', 'success', '2020-06-30 12:30:00', 'A008', 'PMT00009');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1100', 'yes', 'success', '2020-06-31 16:30:00', 'A009', 'PMT00010');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1110', 'yes', 'success', '2020-07-01 12:30:00', 'A010', 'PMT00011');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1120', 'yes', 'success', '2020-07-02 12:30:00', 'A011', 'PMT00012');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1130', 'yes', 'success', '2020-07-03 19:30:00', 'A012', 'PMT00013');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1140', 'yes', 'success', '2020-07-04 12:30:00', 'A013', 'PMT00014');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1150', 'yes', 'success', '2020-07-05 12:30:00', 'A014', 'PMT00015');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1160', 'yes', 'pending', '2020-07-06 06:30:00', 'A015', 'PMT00016');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1170', 'yes', 'success', '2020-07-07 13:30:00', 'A016', 'PMT00017');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1180', 'yes', 'pending', '2020-07-08 19:30:00', 'A017', 'PMT00018');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1190', 'yes', 'pending', '2020-07-08 19:30:00', 'A018', 'PMT00019');
+
+INSERT INTO purchase(purchase_transaction_id, refundable, refund_status, transaction_datetime,  appointment_id, Paymentid) 
+VALUES ('1200', 'yes', 'success', '2020-07-08 19:30:00', 'A019', 'PMT00020');
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+inventory_type(               
+
+inventory_type_id 	VARCHAR(10) NOT NULL,
+
+category 		VARCHAR(10) NOT NULL,
+
+quantity_stock 	INT, 
+
+retail_price 		NUMBER,
+
+color 			VARCHAR(10) NOT NULL,
+
+size 			VARCHAR(10) NOT NULL,
+
+brand 			VARCHAR(20) NOT NULL ,
+
+cost_of_good_sold 	NUMBER,
+
+style 			VARCHAR(20) NOT NULL ,
+
+length 			VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (inventory_type_id)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length)
+
+VALUES 
+
+('INV0001', 'wedding dress', '100', '168.89', 'white', 'S', 'Vera Wang', '68', 'casual', 'maxi');
+
+
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0002', 'gown', '200', '210.5', 'red', 'M', 'DB Studio', '70', 'elegant', 'maxi');
+
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0003', 'wedding dress', '50', '1399', 'white', 'M', 'Galina Signature', '1119', 'romantic', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0004', 'wedding dress', '20', '1399', 'white', 'S', 'Galina Signature', '1119', 'romantic', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0005', 'wedding dress', '60', '1399', 'white', 'L', 'Galina Signature', '1119', 'romantic', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0006', 'wedding dress', '60', '599', 'ivory', 'M', 'Melissa Sweet', '300', 'casual', 'midi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0007', 'wedding dress', '80', '1099', 'ivory', 'M', 'Dustin's Bridal Collection', '590', 'elegant', 'midi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0008', 'wedding dress', '94', '199.95', 'white', 'S', 'Dustin's Bridal Collection', '60', 'casual', 'mini');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0009', 'wedding suit', '30', '199', 'white', 'L', 'Dustin's Bridal Collection', '50', 'formal', 'suit');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0010', 'wedding suit', '40', '219', 'white', 'M', 'Dustin's Bridal Collection', '110', 'formal', 'suit');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0011', 'gown', '40', '359.95', 'yellow', 'M', 'Glamour by Terani', '200', 'elegant', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0012', 'gown', '60', '199.95', 'pink', 'S', 'Speechless', '35', 'romantic', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0013', 'gown', '20', '189.95', 'green', 'S', 'Blondie Nites', '100', 'elegant', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0014', 'gown', '10', '183.96', 'multi', 'M', 'Marina', '50', 'casual', 'midi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0015', 'gown', '50', '349.95', 'multi', 'L', 'Night Studio', '250', 'romantic', 'maxi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0016', 'gown', '35', '219.95', 'grey', 'S', 'Night Studio', '140', 'romantic', 'mini');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0017', 'gown', '47', '189.95', 'red', 'S', 'Dustin's Bridal Collection', '99', 'casual', 'midi');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0018', 'shoes', '17', '29.95', 'white', '7', 'Dustin's Bridal Collection', '10', 'sandal', '5cm');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0019', 'shoes', '62', '49.95', 'pink', '6.5', 'Dustin's Bridal Collection', '30', 'wedge', '3cm');
+
+INSERT INTO inventory_type 
+
+(inventory_type_id, category, quantity_stock, retail_price, color, size, brand, cost_of_good_sold, style, length) 
+
+VALUES 
+
+('INV0020', 'shoes', '79.95', '79.95', 'multi', '6.5', 'Blue By Betsey Johnson', '43', 'sandal', '7cm');
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+supplier(               
+
+supplier_id 		VARCHAR(10) NOT NULL, 
+
+supplier_name 	VARCHAR(50) NOT NULL,
+
+supplier_address 	VARCHAR(60) NOT NULL,
+
+supplier_phone 	VARCHAR(25) NOT NULL,
+
+PRIMARY KEY (supplier_id)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP001', 'Blake and Company', '44503 Sanford Street', '212-869-5959');
+
+
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP002', 'Marionat', '34 34th St, Brooklyn, NY 11232', '888-403-5255');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP003', 'Spring Import Inc', '1407 Broadway #715, New York, NY 10018', '212-575-1888');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP004', 'Wholesaler Clothing NYC', '1407 Broadway #717, New York, NY 10018','212-221-3360');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP005','Garment Center Supplier Association','318 W 39th ST, New York, NY 10018','212-643-9292');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP006','Wholesale Clothing Corporation','1341 Greene Ave, Brooklyn, NY 11237','718-919-1404');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP007','CMS Apparel','270 W 38TH ST, New York, NY 10018','212-997-1888');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP008','Eli-Bet New York Inc','49 W 36TH ST, New York, NY 10018','212-239-3317');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP009','KTP Design Co','118 E 28TH ST King, New York, NY 10016','212-481-6613');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP010','Apparel Production','270 W 39TH ST, New York, NY 10018','212-278-8362');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP011','Hybrid Promotions LLC','530 Fashion Ave, New York, 10018','212-997-4688');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP012','Custom Promotional Items','708 3rd Ave, New York, NY 10017','855-233-5051');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP013','Suuchi Inc','729 Elizabeth Ave, Linden, NJ 07036','908-587-0800');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP014','Exacta Apparel','118 John F Kennedy Dr N #1500, Bloomfield, NJ 07003','973-259-0105');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP015','Public Clothing Company, Inc','499 7TH Ave, New York, NY 10018','212-768-8440');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP016','Jersey Shore Apparel','35 Center Ave, Atlantic Highlands, NJ 07716','732-872-4800');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP017','Handcraft Manufacturing','34 W 33rd St, New York, NY 10001','212-251-0022');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP018','Trans America Trading','50 Carol St, Clifton, NJ 07014','973-778-4611');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP019','B&M Merchandising Co Ltd','16 Craigwood Rd, Avenel, NJ 07001','732-882-1201');
+
+INSERT INTO supplier 
+
+(supplier_id, supplier_name, supplier_address, supplier_phone)
+
+VALUES 
+
+('SUP020','eFashion Wholesale','16 Wyckoff Mills Rd, Adelphia, NJ 07710','732-866-9976');
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+rental_inventory_type(
+
+rental_transaction_id 	VARCHAR(10) NOT NULL,
+
+inventory_type_id 	VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (rental_transaction_id,inventory_type_id),
+
+FOREIGN KEY (rental_transaction_id)  REFERENCES rental (rental_transaction_id),
+
+FOREIGN KEY (inventory_type_id)  REFERENCES inventory_type (inventory_type_id)
+
+);
+
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id)
+
+VALUES ('RTL1001',"INV0001");
+
+
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+
+VALUES ('RTL1001','INV0002');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1003','INV0003');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1004','INV0004');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1005','INV0005');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1006','INV0006');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1007','INV0007');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1008','INV0008');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1009','INV0009');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1010','INV0010');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1011','INV0011');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1012','INV0012');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1013','INV0013');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1014','INV0014');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1015','INV0015');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1016','INV0016');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1017','INV0017');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1018','INV0018');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1019','INV0019');
+
+INSERT INTO rental_inventory_type (rental_transaction_id,inventory_type_id) 
+VALUES ('RTL1020','INV0020');
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+purchase_inventory_type(
+
+inventory_type_id 		VARCHAR(10) NOT NULL,
+
+purchase_transaction_id 	INT,
+
+PRIMARY KEY (purchase_transaction_id,inventory_type_id),
+
+FOREIGN KEY (purchase_transaction_id)  REFERENCES purchase (purchase_transaction_id),
+
+FOREIGN KEY (inventory_type_id)  REFERENCES inventory_type (inventory_type_id)
+
+);
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0001','1010');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0002','1020');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0003','1030');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0004','1040');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0005','1050');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0006','1060');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0007','1070');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0008','1080');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0009','1090');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0010','1100');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0011','1101');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0012','1102');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0013','1103');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0014','1104');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0015','1105');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0016','1106');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0017','1107');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0018','1108');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0019','1109');
+
+INSERT INTO purchase_inventory_type (inventory_type_id,purchase_transaction_id) 
+VALUES ('INV0020','1120');
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE 
+
+supplier_inventory_type(
+
+supplier_id 		VARCHAR(10) NOT NULL,
+
+inventory_type_id 	VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (supplier_id,inventory_type_id),
+
+FOREIGN KEY (supplier_id)  REFERENCES supplier (supplier_id),
+
+FOREIGN KEY (inventory_type_id)  REFERENCES inventory_type (inventory_type_id)
+
+);
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP001','INV0001');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP002','INV0002');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP003','INV0003');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP004','INV0004');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP005','INV0005');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP006','INV0006');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP007','INV0007');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP008','INV0008');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP009','INV0009');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP010','INV0010');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP011','INV0011');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP012','INV0012');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP013','INV0013');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP014','INV0014');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP015','INV0015');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP016','INV0016');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP017','INV0017');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP018','INV0018');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP019','INV0019');
+
+INSERT INTO supplier_inventory_type ( supplier_id, inventory_type_id) 
+VALUES ('SUP020','INV0020');
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+CREATE TABLE
+
+employee_appointment(
+
+Employee_id 		VARCHAR(10) NOT NULL,
+
+appointment_id 	VARCHAR(10) NOT NULL,
+
+PRIMARY KEY (employee_id, appointment_id),
+
+FOREIGN KEY (appointment_id) REFERENCES appointment (appointment_id),
+
+FOREIGN KEY (employee_id) REFERENCES employee (employee_id)
+
+);
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E100','A000');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E101','A001');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E102','A002');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E103','A003');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E104','A004');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E105','A005');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E106','A006');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E107','A007');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E108','A008');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E109','A009');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E110','A010');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E111','A011');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E112','A012');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E113','A013');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E114','A014');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E115','A015');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E116','A016');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E117','A017');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E118','A018');
+
+INSERT INTO employee_appointment (employee_id, appointment_id)
+VALUES ('E119','A019');
+
+
+
+
