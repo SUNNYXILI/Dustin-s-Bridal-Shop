@@ -1,6 +1,6 @@
 # Dustin-s-Bridal-Shop
 
-![Dustin’s Bridal Shop.png](Dustin’s Bridal Shop.png)
+!Bridal_Shop.png](Bridal_Shop.png)
 
 ## Context
 
