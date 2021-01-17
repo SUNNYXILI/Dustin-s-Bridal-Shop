@@ -1,6 +1,6 @@
 # Dustin-s-Bridal-Shop
 
-![Dustin-s-Bridal-Shop.png](Dustin-s-Bridal-Shop.png)
+![Dustin's-Bridal-Shop.png](Dustin's-Bridal-Shop.png)
 
 ## Context
 
@@ -35,4 +35,14 @@ Application Implementation --> .accdb
 2.	Customers’ need to view products by style/color and their rental schedule
 3.	Inventory Clerks’ need to view low-in-stock products, and the highest purchases or rentals
 
+## Summary
+This project has been a meaningful and entertaining experience for me. It was our first time building a database management system from scratch. I was excited to put techniques learned in class into practice, which helped us to transform concepts learned on paper into knowledge known by heart. 
+
+The easiest part for me was the first step - system analysis, where I brainstormed entities required and collected information needs. I also found the data creation and input process to be very easy, albeit tedious.
+
+However, logical and physical modeling was the biggest challenge. It was difficult to differentiate one-to-one, one-to-many, and many-to-many relationships, especially when I had a lot of entities. Also, it was a time-consuming manual process to draw a visually pleasant Entity Relation Diagram. I needed to edit the entire chart whenever I made a change. Additionally, due to Access limitations, I could not insert multiple records of values at the same time with SQL. Thus, the data entry step took most of my time.
+
+Overall, the project has benefited our understanding of database management, because I gained a lot of hands-on experience by going through the whole cycle of database system development. I also picked up tricks to write SQL code in a text file to avoid formatting issues. 
+
+Ultimately, our new system is a success for our business. I now have convenient access to our customer and employee information, keep track of past and future appointments, and can also easily retrieve inventory and supplier records. I believe this new tool will lead Dustin’s Bridal Shop to huge profits and a new stage of accomplishments.
 
